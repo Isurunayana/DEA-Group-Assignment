@@ -112,7 +112,7 @@ p {
 			<td>
 				<button  type="reset" value="Reset" class="button"> Reset</button> <button type="Submit" value="Search" class="sbutton">Search</button>
 			</td>
-			<p>kkk</p>
+			
 
 
 </form>
