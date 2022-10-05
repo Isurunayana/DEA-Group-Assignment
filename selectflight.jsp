@@ -27,6 +27,56 @@ table, th, td {
 </head>
 <body>
 
+
+  <nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#bookflight">BookFlight</a></li>
+        <li><a href="#phoenixclub">PhoenixClub</a></li>
+    </ul>
+</nav>
+nav{
+  width: 100%;
+  background:blanchedalmond;
+  overflow: auto;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:rgb(63, 104, 216);
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-transform: none;
+text-shadow: #ddd;
+}
+
+li a:hover {
+background-color:white;
+}
+body{
+  text-align: center;
+  background-color: lightcyan;
+  margin: 0%;
+  padding: 0%;
+
+  
+}
+
 <h2>Select your pereferred data and faare combination below and click"Next" to continue.</h2>
 
 <h2>*Select a date for your outbound journey.</h2>
