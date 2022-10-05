@@ -103,7 +103,9 @@ body{
     
    
 }
-</style>
+
+   
+    </style>
 </head>
 <body>
     <nav>
@@ -129,7 +131,7 @@ body{
     </tr>
     <tr>
         <td>apple</td>
-        <td>ooo</td>
+        <td></td>
         <td></td>
     </tr>
     <tr>
