@@ -42,6 +42,16 @@
 	                            </div>
 	                            <div class="form-bottom" style="color:white;">
 				                    <form role="form" action="j_security_check" method="post" class="login-form">
+							     <div class="form-group">
+				                        	<label for="user-type">User type</label>
+											<select name="" id="">
+												<option value="">Normal User</option>
+												<option value="">Admin</option>
+												<option value="">Staff A</option>
+												<option value="">Staff B</option>
+											</select>
+				                        	
+				                        </div>
 				                    	<div class="form-group">
 				                    		<label for="form-username">Username</label>
 				                        	<input required type="email" name="j_username" placeholder="Username..." class="form-username form-control" id="form-username" ">											
@@ -54,7 +64,7 @@
 				                        	<label for="form-password">Password</label>
 				                        	<input required type="password" name="j_password" placeholder="Password..." class="form-password form-control" id="form-password">
 				                        </div>
-				                        <button style="margin-top:5%;" type="submit" class="btn">Sign in!</button>
+				                        <button style="margin-top:5%;" type="submit" class="btn">Sign in</button>
 				                    </form>
 			                    </div>
 		                    </div>		            
