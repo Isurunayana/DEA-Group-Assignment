@@ -1,0 +1,34 @@
+ *{
+	 margin:0;
+	 padding:0;
+	 font-family:'poppins',sans-serif;
+	 box-sizing:border-box;
+	 font-size:15;
+ }
+	.hero{
+	 width: 100%;
+	 height:100vh;
+	 background-image:url(menu_home.originalimage.jpeg);
+	 background-position:center;
+	 background-size:cover;
+	 display:flex;
+	 align-items:center;
+	 justify-content:center;
+	 font-size:30px;
+ }
+	form{
+		width:90%;
+		max-width:600px;
+	}
+	
+	.input-group{
+		margin-bottom:30px;
+		
+	}
+	
+	
+	
+	button{
+		padding:10px;
+	}
+	
