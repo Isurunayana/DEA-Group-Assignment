@@ -58,10 +58,10 @@ p {
 		</tr>
 		<tr>
 			<td>
-				<strong>From :</strong>
+				</br><strong>From :</strong>
 			</td>
 			<td>
-				<input type="text" name="">
+				</br><input type="text" name="">
 			</td>
 		</tr>
 		<tr>
@@ -103,15 +103,15 @@ p {
   <label for="pwd"><strong>Classe:</strong></label>
   <input type="password" id="pwd"  name="pswd">
   
-  
-  
+ </br>
+ </br><button type="button" class="button">Reset</button>  <button type="button" class=".sbutton">Search</button> 
+                
     
+
+
+
+
 </form>
-
-	<button  type="reset" value="Reset" class="button"> Reset</button> <button type="Submit" value="Search" class="sbutton">Search</button>
-			
-			
-
  <td>
 				
 
