@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>search form</title>
+	<link rel="stylesheet" href="new.css">
 	
 	<style>
 		.button{
@@ -42,13 +43,13 @@ p {
 	
 </head>
 <body>
-
+<div class="hero">
 <form>
 	<table>
 		<tr>
-			<p>
+			<h2>
 		<strong>Search for one way or return flight below:</strong>
-	</p>
+	</h2>
 
 			<td>
 				<input type="radio" name="select" id="ii"><strong>One Way</strong>
@@ -57,7 +58,15 @@ p {
 		</tr>
 		<tr>
 			<td>
-				<strong>From</strong>
+				</br><strong>From :</strong>
+			</td>
+			<td>
+				</br><input type="text" name="">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<strong>To :</strong>
 			</td>
 			<td>
 				<input type="text" name="">
@@ -65,15 +74,7 @@ p {
 		</tr>
 		<tr>
 			<td>
-				<strong>To</strong>
-			</td>
-			<td>
-				<input type="text" name="">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<strong>Depart</strong>
+				<strong>Depart :</strong>
 			</td>
 			<td>
 				<input type="date" placeholder="MM/DD/YY" name="">
@@ -81,7 +82,7 @@ p {
 		</tr></br>
 		<tr>
 			<td>
-				<strong>Return</strong>
+				<strong>Return :</strong>
 			</td>
 			<td>
 				<input type="date" placeholder="MM/DD/YY" name="">
@@ -94,27 +95,27 @@ p {
 			
 	<form class="form-inline" action="/action_page.php">
   <label for="email"><strong>Adult:</strong></label>
-  <input type="email" id="email"  name="email">
+  <input type="text" id="email"  name="email">
   <label for="pwd" ><strong>Children:</strong></label>
   <input type="password" id="pwd"  name="pswd">
   <label for="email"><strong>Infant:</strong></label>
   <input type="email" id="email"  name="email">
   <label for="pwd"><strong>Classe:</strong></label>
-  <input type="password" id="pwd"  name="pswd"></br>
-  </br>
+  <input type="password" id="pwd"  name="pswd">
   
-  <label>
-  
-  
+ </br>
+ </br><button type="button" class="button">Reset</button>  <button type="button" class=".sbutton">Search</button> 
+                
     
-</form>
-	
-			<td>
-				<button  type="reset" value="Reset" class="button"> Reset</button> <button type="Submit" value="Search" class="sbutton">Search</button>
-			</td>
-			
+
+
 
 
 </form>
+ <td>
+				
+
+</form>
+</div>
 </body>
 </html>
