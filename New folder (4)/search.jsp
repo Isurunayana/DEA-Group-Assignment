@@ -75,7 +75,7 @@
 
                                     </div>
                                     <div style="text-align:center;">
-                                        <button style="margin-top:5%;" type="submit" style="" class="btn col-xs-5 col-md-5">Search Flights</button>
+                                        <button style="margin-top:5%;" type="submit" class="btn col-xs-5 col-md-5">Search Flights</button>
                                     </div>
                                 </form>
                             </div>
