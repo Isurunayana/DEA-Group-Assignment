@@ -4,7 +4,7 @@
 	<title>search form</title>
 	<link rel="stylesheet" href="new.css">
 	
-	>
+	
 	
 	
 	
@@ -19,7 +19,7 @@
 	</h2>
 
 			<td>
-				<input type="radio" name="select" class="tabl"><strong>One Way</strong>
+				<input type="radio" name="select" ><strong>One Way</strong>
 				<input type="radio" name="select"><strong>Return</strong>
 			</td>
 		</tr>
