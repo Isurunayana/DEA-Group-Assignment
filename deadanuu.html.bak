@@ -4,40 +4,7 @@
 	<title>search form</title>
 	<link rel="stylesheet" href="new.css">
 	
-	<style>
-		.button{
-				width:100px;
-				height:30px;
-				background:red;
-				color:white;
-				border:none;
-				allign:center;
-				}
-		.sbutton{
-				width:100px;
-				height:30px;
-				background:blue;
-				color:white;
-				border:none; 
-				}
-				body {
-  background-color: lightblue;
-}
-p {
-  margin-top: 100px;
-  margin-bottom: 10px;
-  margin-right: 150px;
-  margin-left: 80px;
-}
-	#ii{ 
-	text-align:center;
-		
-		
-		}
-		
-
-		
-	</style>
+	>
 	
 	
 	
@@ -52,7 +19,7 @@ p {
 	</h2>
 
 			<td>
-				<input type="radio" name="select" id="ii"><strong>One Way</strong>
+				<input type="radio" name="select" class="tabl"><strong>One Way</strong>
 				<input type="radio" name="select"><strong>Return</strong>
 			</td>
 		</tr>
@@ -104,9 +71,9 @@ p {
   <input type="password" id="pwd"  name="pswd">
   
  </br>
- </br><button type="button" class="button">Reset</button>  <button type="button" class=".sbutton">Search</button> 
+ </br><button type="button" class="button">Reset</button>  <button type="button" class="sbutton">Search</button> 
                 
-    
+  
 
 
 
