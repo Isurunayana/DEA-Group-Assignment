@@ -47,7 +47,7 @@
                                     <div class="row">
                                         <div class="form-group col-lg-4 ui-widget">
                                             <label for="from">From</label>
-                                            <input required type="text" name="from" placeholder="Departure City..." class="form-control" id="osearch" style="height: 50px;    margin: 0;    padding: 0 20px;    vertical-align: middle;    background: #fff;    border: 3px solid #fff;    font-family: 'Roboto', sans-serif;    font-size: 16px;    font-weight: 300;    line-height: 50px;    color: #888;    -moz-border-radius: 4px;    -webkit-border-radius: 4px;    border-radius: 4px;    -moz-box-shadow: none;    -webkit-box-shadow: none;    box-shadow: none;    -o-transition: all .3s;    -moz-transition: all .3s;    -webkit-transition: all .3s;    -ms-transition: all .3s;    transition: all .3s;">
+                                            <input required type="text" name="from" placeholder="Departure City" class="form-control" id="osearch" style="height: 50px;    margin: 0;    padding: 0 20px;    vertical-align: middle;    background: #fff;    border: 3px solid #fff;    font-family: 'Roboto', sans-serif;    font-size: 16px;    font-weight: 300;    line-height: 50px;    color: #888;    -moz-border-radius: 4px;    -webkit-border-radius: 4px;    border-radius: 4px;    -moz-box-shadow: none;    -webkit-box-shadow: none;    box-shadow: none;    -o-transition: all .3s;    -moz-transition: all .3s;    -webkit-transition: all .3s;    -ms-transition: all .3s;    transition: all .3s;">
                                         </div>
                                         <div class="form-group col-lg-4 ui-widget">
                                             <label for="to">To</label>
@@ -75,7 +75,7 @@
 
                                     </div>
                                     <div style="text-align:center;">
-                                        <button style="margin-top:5%;" type="submit" class="btn col-xs-5 col-md-5">Search Flights</button>
+                                        <button style="margin-top:5%;" type="submit" class="btn col-xs-5 col-md-5">Search</button>
                                     </div>
                                 </form>
                             </div>
