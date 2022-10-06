@@ -88,7 +88,7 @@
 	</div>
 
 
-                <jsp:include page="Templates/Footer.jsp"/>
+                <jsp:include page="Footer.jsp"/>
     
     <!-- Bootstrap core JavaScript
     ================================================== -->

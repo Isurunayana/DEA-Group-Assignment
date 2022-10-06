@@ -13,16 +13,17 @@
             border-collapse: collapse;
             padding:1% 2% 1% 2%;
             font-size: large;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-style: oblique;
             margin: auto;
             background-color: white;
         }
-        h4{
+        p{
             color: black;
             font-size: larger;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-style: normal;
+            font-style: oblique;
             text-align: start;
         }
         a {
@@ -41,13 +42,13 @@
 }
 
 .back {
-  background-color:rgb(184, 36, 36);
+  background-color:mediumvioletred;
   color: black;
   font-size: large;
 }
 
 .next {
-  background-color:rgb(71, 35, 170);
+  background-color:greenyellow;
   color: white;
   font-size: large;
 }
@@ -59,8 +60,6 @@ nav{
     width: 100%;
     background:blanchedalmond;
     overflow: auto;
-    
-    
 }
 
 ul {
@@ -68,8 +67,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:rgb(40, 40, 240);
-  
+  background-color:rgb(63, 104, 216);
 }
 
 li {
@@ -78,11 +76,11 @@ li {
 
 li a {
   display: block;
-  color:whitesmoke;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: none;
   text-shadow: #ddd;
 }
@@ -92,20 +90,22 @@ li a:hover {
 }
 body{
     text-align: center;
-    background-color: lightblue;
+    background-color: lightcyan;
     margin: 0%;
     padding: 0%;
 
     
 }
 .content{
-    
+    background-color:lightgoldenrodyellow;
     margin:1%;
     padding: 1%;
     
    
 }
-</style>
+
+   
+    </style>
 </head>
 <body>
     <nav>
@@ -121,7 +121,7 @@ body{
 
 <div class="content">
 
-<h4>confirm the price to contiune booking then, click "Next" to cotiune with the booking.</h4>
+<p>confirm the price to contiune booking then, click "Next" to cotiune with the booking.</p>
 
 <table>
     <tr>
@@ -130,10 +130,8 @@ body{
         <th>Date</th>
     </tr>
     <tr>
-
+        <td>apple</td>
         <td></td>
-        <td></td>
-        
         <td></td>
     </tr>
     <tr>
@@ -147,7 +145,7 @@ body{
         <td></td>
     </tr>
     </table>
-<h4>Air Fare Cost</h4>
+<p>Air Fare Cost</p>
 <table>
     <tr>
         <th>Type</th>
