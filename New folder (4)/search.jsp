@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Flight Search</title>
+    <title>Search flight</title>
 
     <link rel="icon" href="https://www-turkishairlines.akamaized.net/theme/img/icons/favicon.ico">
 
