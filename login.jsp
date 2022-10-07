@@ -54,15 +54,15 @@
 				                        </div>
 				                    	<div class="form-group">
 				                    		<label for="form-username">Username</label>
-				                        	<input required type="email" name="j_username" placeholder="Username..." class="form-username form-control" id="form-username" ">											
+				                        	<input required type="email" name="j_username" placeholder="Username" class="form-username form-control" id="form-username" ">											
 				                        </div>
 							<div class="form-group">
 				                        	<label for="email">Email</label>
-				                        	<input required type="Email" name="j_email" placeholder="email..." class="form-email form-control" id="form-email">
+				                        	<input required type="Email" name="j_email" placeholder="email" class="form-email form-control" id="form-email">
 				                        </div>
 				                        <div class="form-group">
 				                        	<label for="form-password">Password</label>
-				                        	<input required type="password" name="j_password" placeholder="Password..." class="form-password form-control" id="form-password">
+				                        	<input required type="password" name="j_password" placeholder="Password" class="form-password form-control" id="form-password">
 				                        </div>
 				                        <button style="margin-top:5%;" type="submit" class="btn">Sign in</button>
 				                    </form>
